@@ -1,0 +1,171 @@
+body {
+    background: rgb(197, 197, 197);
+}
+
+.post {
+    margin: auto;
+    margin-top: 80px;
+    width: 672px;
+    height: 806px;
+    background-color: white;
+}
+
+.post-header {
+    margin: auto;
+    display: flex;
+    width: 670px;
+    height: 70px;
+}
+
+.icon-html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-html i {
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-html i:hover { /*Transición de escala mientras el ratón está sobre el icono*/
+    color: #f06529;
+    transform: scale(1.2);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-html {
+    margin-top: 4px;
+    font-size: 15px;
+    align-items: center;
+    width: auto;
+    height: 60px;
+    font-family: Arial;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+}
+
+.menu i {
+    transition: all 0.3s ease-in-out;
+}
+
+.menu i:hover {
+    transform: scale(1.2);
+    color: rgb(131, 131, 131);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.post-img {
+    margin: auto;
+    overflow: hidden;
+    width: 672px;
+    height: 450px;
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.post-img img:active {  /*Transición de escala mientras se hace click en la imagen*/
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.post-body {
+    margin: auto;
+    width: 670px;
+    height: 280px;
+}
+
+.post-icons {
+    display: flex;
+    margin: auto;
+    width: 670px;
+    height: 60px;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+}
+
+.post-icons .icon-group:last-child { /*Enviar el último div del pader post-icons al lado derecho*/
+    margin-left: auto;
+    margin-right: 20px;
+    justify-content: end;
+}
+
+.post-icons .icon-group i {
+    transition: all 0.3s ease-in-out;
+}
+
+.post-icons .icon-group i:hover {
+    transform: scale(1.2);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.post-icons .icon-group:nth-child(1):hover {
+    color: red;
+}
+
+.post-icons .icon-group:nth-child(2):hover {
+    color: rgb(20, 96, 236);
+}
+
+.post-icons .icon-group:nth-child(3):hover {
+    color: rgb(8, 167, 29);
+}
+
+.post-icons .icon-group:nth-child(4):hover {
+    color: rgb(207, 121, 22);
+}
+
+.post-liked {
+    font-family: monospace;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 670px;
+    height: 40px;
+}
+.post-liked p {
+    margin-left: 20px;
+}
+
+.post-comment {
+    margin: auto;
+    display: flex;
+    width: 670px;
+    height: 170px;
+}
+
+.post-comment p {
+    font-family: Arial;
+    font-size: 15px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
